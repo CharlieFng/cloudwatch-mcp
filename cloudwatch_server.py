@@ -1,5 +1,5 @@
-import logging
 import json
+import logging
 import os
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP, Context
@@ -71,6 +71,7 @@ def query_logs(log_group_name: str, query_string: str, ctx: Context, start_time:
         start_time=start_time,
         end_time=end_time
     )
+
     return json.dumps(query_results, indent=2)
 
 # Tool: Discover log fields

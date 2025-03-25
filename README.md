@@ -6,8 +6,9 @@ This simplified MCP server provides a streamlined way to interact with AWS Cloud
 
 - List all CloudWatch log groups with their metadata
 - List all CloudWatch alarms with their current states
-- Query CloudWatch logs using CloudWatch Insights
-- Discover available fields in log groups
+- Query CloudWatch logs using CloudWatch Insights across multiple log groups
+- Discover available fields across multiple log groups with shared schema
+- Automatic JSON parsing for @message field in log queries
 - Check if specific log groups exist
 - Get detailed information about specific log groups
 - Filter alarms by state (all alarms or only those in ALARM state)
@@ -85,18 +86,29 @@ The server provides the following tools:
 
 - `query_logs` - Query CloudWatch logs using CloudWatch Insights
   - Parameters:
-    - `log_group_name`: Name of the log group to query
+    - `log_group_names`: Single log group name or list of log group names to query
     - `query_string`: CloudWatch Insights query string
     - `start_time`: (Optional) Start time for the query in Unix timestamp milliseconds
     - `end_time`: (Optional) End time for the query in Unix timestamp milliseconds
+  - Features:
+    - Automatically parses JSON in @message field
+    - Returns structured data for JSON messages
+    - Handles multiple log groups in a single query
 
-- `discover_log_fields` - Discover available fields in a CloudWatch log group
+- `discover_log_fields` - Discover available fields across multiple log groups
   - Parameters:
-    - `log_group_name`: Name of the log group to analyze
+    - `log_group_names`: Single log group name or list of log group names to analyze
+  - Features:
+    - Efficiently discovers fields across multiple log groups
+    - Assumes shared schema across log groups
+    - Detects nested JSON fields in @message
+    - Identifies field types (number, boolean, string, array)
 
-- `log_group_exists` - Check if a CloudWatch log group exists
+- `log_group_exists` - Check if CloudWatch log groups exist
   - Parameters:
-    - `log_group_name`: Name of the log group to check
+    - `log_group_names`: Single log group name or list of log group names to check
+  - Returns:
+    - Dictionary mapping each log group to its existence status
 
 - `get_saved_queries` - Fetch all saved CloudWatch Logs Insights queries
   - No parameters required
@@ -142,14 +154,17 @@ mcp inspect cloudwatch://alarms/in-alarm
 # List all saved CloudWatch Logs Insights queries
 mcp inspect cloudwatch://saved-queries
 
-# Query logs using CloudWatch Insights
-mcp call query_logs --log_group_name "my-log-group" --query_string "fields @timestamp, @message | limit 10"
+# Query logs from multiple log groups using CloudWatch Insights
+mcp call query_logs --log_group_names '["log-group-1", "log-group-2"]' --query_string "fields @timestamp, @message | limit 10"
 
-# Discover fields in a log group
-mcp call discover_log_fields --log_group_name "my-log-group"
+# Query logs from a single log group (still supported)
+mcp call query_logs --log_group_names "my-log-group" --query_string "fields @timestamp, @message | limit 10"
 
-# Check if a log group exists
-mcp call log_group_exists --log_group_name "my-log-group"
+# Discover fields across multiple log groups
+mcp call discover_log_fields --log_group_names '["log-group-1", "log-group-2"]'
+
+# Check if multiple log groups exist
+mcp call log_group_exists --log_group_names '["log-group-1", "log-group-2"]'
 
 # Get all saved CloudWatch Logs Insights queries
 mcp call get_saved_queries

@@ -21,15 +21,8 @@ aws_profile = os.getenv("AWS_PROFILE", "default")
 # Initialize the CloudWatch integration
 cloudwatch_integration = CloudWatchIntegration(profile_name=aws_profile)
 
-# Add a tool 
-@mcp.tool()
-def greeting(name: str, ctx: Context) -> str:
-    """Greet a person"""
-    ctx.debug(f"Greeting {name}!")
-    return f"Hello, {name}!"
-
 # Resource: Log Groups
-@mcp.resource("cloudwatch://log-groups")
+@mcp.tool()
 def list_log_groups() -> str:
     """List all CloudWatch log groups"""
     formatted_groups = cloudwatch_integration.get_log_groups()
@@ -46,12 +39,13 @@ def list_alarms() -> str:
 @mcp.tool()
 def list_alarms_in_alarm_state() -> List[str]:
     """List all CloudWatch alarms currently in ALARM state"""
-    return cloudwatch_integration.get_formatted_alarms(only_in_alarm=True)
+    alarms = cloudwatch_integration.get_formatted_alarms(only_in_alarm=True)
+    return json.dumps(alarms, indent=2)
     
 
 # Tool: Query logs
 @mcp.tool()
-def query_logs(log_group_name: str, query_string: str, ctx: Context, start_time: Optional[int] = None, end_time: Optional[int] = None) -> str:
+def query_logs(log_group_names: List[str], query_string: str, start_time: int, end_time: int, ctx: Context = None) -> str:
     """
     Query CloudWatch logs using CloudWatch Insights
     
@@ -64,9 +58,9 @@ def query_logs(log_group_name: str, query_string: str, ctx: Context, start_time:
     Returns:
         JSON string with query results
     """
-    ctx.debug(f"Querying log group '{log_group_name}' with query: {query_string}")
+    ctx.debug(f"Querying log groups: {log_group_names} with query: {query_string}")
     query_results = cloudwatch_integration.query_logs(
-        log_group_name=log_group_name,
+        log_group_names=log_group_names,
         query_string=query_string,
         start_time=start_time,
         end_time=end_time
@@ -76,18 +70,18 @@ def query_logs(log_group_name: str, query_string: str, ctx: Context, start_time:
 
 # Tool: Discover log fields
 @mcp.tool()
-def discover_log_fields(log_group_name: str, ctx: Context) -> str:
+def discover_log_fields(log_group_names: List[str], ctx: Context) -> str:
     """
     Discover available fields in a CloudWatch log group
     
     Args:
-        log_group_name: The name of the CloudWatch log group to analyze
+        log_group_names: The names of the CloudWatch log groups to analyze
     
     Returns:
         JSON string with discovered field names and their types
     """
-    ctx.debug(f"Discovering fields for log group '{log_group_name}'")
-    fields = cloudwatch_integration.discover_log_fields(log_group_name)
+    ctx.debug(f"Discovering fields for log groups: {log_group_names}")
+    fields = cloudwatch_integration.discover_log_fields(log_group_names)
     return json.dumps(fields, indent=2)
 
 # Tool: Check if log group exists

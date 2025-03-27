@@ -1,0 +1,349 @@
+{
+  "status": "Complete",
+  "statistics": {
+    "recordsMatched": 8947586.0,
+    "recordsScanned": 8948109.0,
+    "estimatedRecordsSkipped": 0.0,
+    "bytesScanned": 7250805036.0,
+    "estimatedBytesSkipped": 0.0,
+    "logGroupsScanned": 2.0
+  },
+  "results": [
+    {
+      "@timestamp": "2025-03-27 10:45:00.544",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "productIdIndex": {},
+        "productIds": [
+          "SKU:B08Y675271",
+          "xl0dcwwyhhyw1b",
+          "SKU:B08Y675271",
+          "xl0dcwwyhhyw1b"
+        ],
+        "message": "Final product index",
+        "logger": "RequestState",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQNhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.544",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "result": {},
+        "message": "Final merged delivery estimates",
+        "logger": "RequestState",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQNxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.544",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "message": "[AWS salsaservice 200 0.303s 0 retries] batchGetDeliveryEstimate({\n  poaShopperInstanceId: 'v0V8NcrWI43Qw6sUpxdgI7',\n  includeReturnPolicy: true,\n  ipAddress: '54.162.72.166',\n  staticPromiseMessageOverrideThreshold: 4,\n  items: [\n    { itemId: 'SKU:B08Y675271', quantity: 1 },\n    { itemId: 'xl0dcwwyhhyw1b', quantity: 1 },\n    { itemId: 'SKU:B08Y675271', quantity: 1 },\n    { itemId: 'xl0dcwwyhhyw1b', quantity: 1 },\n    [length]: 4\n  ]\n})",
+        "logger": "AwsClient::Logs",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQNRgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.241",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "message": "bica ivsBatchListVendingItems success, requestId: undefined",
+        "logger": "IvsProductService",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQBhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.241",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "message": "Cache: IVSCache HIT! for item: [\"SantosItemVendingservice\",\"listVendingItems\",{\"catalogId\":\"du8z1d51txeu1s\",\"filters\":\"item.itemId=in=(SKU:B08Y675271,xl0dcwwyhhyw1b)\",\"extend\":[\"parent\",\"inventory\"]}]",
+        "logger": "lru-cache-IVSCache",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQBRgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.239",
+      "@message": "Origin from request: null",
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQAxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.239",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "deliveryMessageDropOptions": {
+          "targetId": "v65a8onka2",
+          "orderManagerArn": "arn:aws:rudolph:us-east-1:791815949350:order-managers/iht8k1jv9f",
+          "catalogArn": "arn:aws:bica:us-east-1:791815949350:catalogs/du8z1d51txeu1s",
+          "poaShopperInstanceArn": "arn:aws:dover-salsa:us-east-1:791815949350:poa-shopper-instance/o-cab4a55e-4706-4ed5-823e-0f4e0d973111/v0V8NcrWI43Qw6sUpxdgI7",
+          "productItemIds": [
+            "SKU:B08Y675271",
+            "xl0dcwwyhhyw1b",
+            "SKU:B08Y675271",
+            "xl0dcwwyhhyw1b"
+          ],
+          "productMarketplaceIds": [
+            "null",
+            "null",
+            "null",
+            "null"
+          ],
+          "includeReturnPolicyList": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "logger": {
+            "logContext": {
+              "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+              "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+              "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+              "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+              "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+              "logger": "RequestState"
+            },
+            "loggingStrategy": {
+              "config": {}
+            },
+            "transport": {},
+            "formatter": {}
+          },
+          "cloudfrontViewerAddress": "54.162.72.166",
+          "storeUrl": "https://saltiefish-test-store.myshopify.com",
+          "inCheckout": false
+        },
+        "message": "DeliveryMessageDrops Options",
+        "logger": "DeliveryMessageBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQBBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.239",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "message": "Creating delivery Message drop. productItemIds: SKU:B08Y675271,xl0dcwwyhhyw1b,SKU:B08Y675271,xl0dcwwyhhyw1b",
+        "logger": "DeliveryMessageBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQAhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.234",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "contentItemId": null,
+        "contentGroupArn": "arn:aws:mindil:us-east-1:791815949350:content-groups/qpo19v5oz2",
+        "domainGroupArn": "arn:aws:tamarama:us-east-1:791815949350:domain-groups/0irb5gx8i6",
+        "ownerTagId": "o-cab4a55e-4706-4ed5-823e-0f4e0d973111",
+        "targetId": "v65a8onka2",
+        "message": "TLRs resolved",
+        "logger": "RequestState",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQARgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:45:00.233",
+      "@message": {
+        "requestId": "44c2b942-1c58-4361-affe-379d0e19d065",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-message/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "amzCFId": "q18wo6siIiyMwDUraMj0LEN0HSR0YGFFYEwlg4PI9TwLOXcPyjo7-Q==",
+        "tuxedoId": "Root=1-67e52c2c-112ce09e25c1c6a34524b926",
+        "message": "Cache: Default HIT! for item: [\"SantosTeewahService\",\"getBusinessProduct\",{\"businessProductId\":\"v65a8onka2\"}]",
+        "logger": "lru-cache-Default",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAFIg4IyI/u+NgyEMif0rndMhI3GhgCBnzmo2MAAAAAPXYXEAAGflLCcAAABTIgASjJmdK53TIwndDYud0yOFdAvMQESPOdAVCufxgAIAEQABgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.759",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "Delivery card product MSKU:VB-RETURNABLE-SKU, with delivery message Get it as soon as Tomorrow Mar 28 and returnability RETURNABLE",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQMhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.759",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "Delivery card product SKU:VB-STORE-SKU-1, with delivery message  and returnability ",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQNBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.759",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "Delivery card product iw99hkyh4y7w1y, with delivery message Get it as soon as Tomorrow Mar 28 and returnability ",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQMxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.759",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "Delivery card product SKU:VB-BUYABLE-SKU, with delivery message Get it as soon as Tomorrow Mar 28 and returnability ",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQMRgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.758",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "result": {},
+        "message": "Final merged delivery estimates",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQLxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.758",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "Delivery card product SKU:VB-RETURNABLE-SKU, with delivery message Get it as soon as Tomorrow Mar 28 and returnability RETURNABLE",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQMBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.758",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "productIdIndex": {},
+        "productIds": [
+          "SKU:VB-RETURNABLE-SKU",
+          "SKU:VB-BUYABLE-SKU",
+          "MSKU:VB-RETURNABLE-SKU",
+          "iw99hkyh4y7w1y",
+          "SKU:VB-STORE-SKU-1"
+        ],
+        "message": "Final product index",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQLhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.757",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "bundleDeliveryEstimates": {},
+        "message": "Bundle offers drop",
+        "logger": "DeliveryCardBulk",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQLBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.757",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "Response initiateOrder: {\"order\":{\"orderIdentifier\":{\"orderId\":\"322-RD3V-HFXHJN\",\"contractDefinitionId\":\"contractDefinitionId\",\"orderManagerId\":\"orderManagerId\"},\"orderUnits\":[{\"id\":\"75bd056d4c-a6e9132dbd\",\"baseId\":\"75bd056d4c\",\"quantity\":{\"start\":\"0\",\"measure\":\"1\",\"unit\":\"ONE\"},\"createDate\":1743072298518},{\"id\":\"effbe64821-48d75d21fa\",\"baseId\":\"effbe64821\",\"quantity\":{\"start\":\"0\",\"measure\":\"1\",\"unit\":\"ONE\"},\"createDate\":1743072298518}],\"itemGroups\":[{\"itemIdentifiers\":[{\"space\":\"MSKU\",\"value\":\"VB-STORE-SKU-1\"},{\"space\":\"EXTERNAL_ID\",\"value\":\"VB-STORE-SKU-1\"},{\"space\":\"ITEM_ID\",\"value\":\"76t4bpmucqx41t\"},{\"space\":\"SKU\",\"value\":\"VB-STORE-SKU-1\"}],\"title\":\"VB test product 1 (one item not buyable)\",\"imageUrl\":\"https://amazon-omni-cdn.com/hfh645imy91/rginq448w959f1/87c61cd2-c899-41c4-805c-a164f268f4a9.jpeg\",\"altText\":\"\",\"price\":25,\"currencyCode\":\"USD\",\"pdpUrl\":\"https://www.amazon.com\",\"isPrimeIntended\":true,\"composition\":[{\"itemIdentifiers\":[{\"space\":\"ITEM_ID\",\"value\":\"7torn2xzwal7a0\"}],\"relationships\":{\"orderUnit\":[{\"id\":\"effbe64821-48d75d21fa\",\"interval\":{\"start\":\"0\",\"measure\":\"1\"}}]},\"quantity\":{\"start\":\"0\",\"measure\":\"1\",\"unit\":\"ONE\"}},{\"itemIdentifiers\":[{\"space\":\"ITEM_ID\",\"value\":\"01notmq4jssm11\"}],\"relationships\":{\"orderUnit\":[{\"id\":\"75bd056d4c-a6e9132dbd\",\"interval\":{\"start\":\"0\",\"measure\":\"1\"}}]},\"quantity\":{\"start\":\"0\",\"measure\":\"1\",\"unit\":\"ONE\"}}]}],\"items\":[{\"itemIdentifier\":{\"space\":\"SKU\"},\"title\":\"headlamp\",\"description\":\"<p>it shines light</p>\",\"imageUrl\":\"https://amazon-omni-cdn.com/hfh645imy91/wdphw4frgy2iz1/422f7095-87e3-45c0-9e3a-79d4105ac86b.jpeg\",\"price\":17.86,\"currencyCode\":\"USD\",\"isPrimeIntended\":true,\"catalogId\":\"du8z1d51txeu1s\",\"itemId\":\"7torn2xzwal7a0\",\"sku\":\"B08Y675271\",\"arn\":\"arn:aws:bica:us-east-1:791815949350:catalogs/du8z1d51txeu1s/items:7torn2xzwal7a0:1737334439056363981\",\"mskuValue\":\"B08Y675271\",\"aliasRelationshipTargets\":[\"urn:amazon:msku:B08Y675271\",\"urn:amazon:asin:B08Y675271\"],\"isPrimeEligible\":1,\"variations\":[],\"fulfilledBy\":\"Amazon\",\"materialItemArn\":\"arn:aws:bica:us-east-1:791815949350:catalogs/j6syzzfvyqbpl2/items/777gvulwvteg1p\",\"mskuWithMarketplace\":\"ATVPDKIKX0DER:B08Y675271\",\"relationships\":{\"itemGroup\":[{\"id\":\"76t4bpmucqx41t\"}],\"orderUnit\":[{\"id\":\"effbe64821-48d75d21fa\",\"interval\":{\"start\":\"0\",\"measure\":\"1\"}}]}},{\"itemIdentifier\":{\"space\":\"SKU\"},\"title\":\"Blistex Five Star Lip Protection Balm, 0.15 Ounce \u2013 Wind & Water-Resistant Lip Care, Broad Spectrum SPF 30 Sun Protection, Soothes Cold Chapped Lips, Hydrating Lip Treatment, Holds in Moisture\",\"price\":7.14,\"currencyCode\":\"USD\",\"isPrimeIntended\":true,\"catalogId\":\"du8z1d51txeu1s\",\"itemId\":\"01notmq4jssm11\",\"sku\":\"6C-ZTEQ-OJWR\",\"arn\":\"arn:aws:bica:us-east-1:791815949350:catalogs/du8z1d51txeu1s/items:01notmq4jssm11:1737087462770356683\",\"mskuValue\":\"6C-ZTEQ-OJWR\",\"aliasRelationshipTargets\":[\"urn:amazon:msku:6C-ZTEQ-OJWR\",\"urn:channel:amazon\",\"urn:amazon:asin:B003AXUQOO\"],\"isPrimeEligible\":1,\"variations\":[],\"fulfilledBy\":\"Amazon\",\"materialItemArn\":\"arn:aws:bica:us-east-1:791815949350:catalogs/j6syzzfvyqbpl2/items/pfd7j75s03o2x4\",\"mskuWithMarketplace\":\"ATVPDKIKX0DER:6C-ZTEQ-OJWR\",\"relationships\":{\"itemGroup\":[{\"id\":\"76t4bpmucqx41t\"}],\"orderUnit\":[{\"id\":\"75bd056d4c-a6e9132dbd\",\"interval\":{\"start\":\"0\",\"measure\":\"1\"}}]}}],\"orderState\":{\"initiatedDate\":1743072298519,\"createDate\":null,\"placementDate\":null,\"lastUpdatedDate\":1743072298519,\"archivedDate\":null,\"state\":null},\"buyingApplication\":{\"ipFingerprint\":{\"ipAddress\":\"54.162.72.166\"},\"storeFingerprint\":{\"storeUrl\":\"https://saltiefish-test-store.myshopify.com\"}},\"contractState\":{\"state\":\"DRAFT_NEW\"}}}",
+        "logger": "OfferService",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQKhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 10:44:58.757",
+      "@message": {
+        "requestId": "7609463e-99b1-442b-bddb-45aaa1500235",
+        "requestUrl": "https://cdn.gamma.elements.dubai.aws.dev/elements/amazon-delivery-card/v1.0/render-bulk",
+        "amznTraceId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "amzCFId": "pL_9sUY1qK_gI3u9o8vE_CfoRunNLIRuVMUKEtYnKFiDWGxtsiclvg==",
+        "tuxedoId": "Root=1-67e52c2a-38bd8f4e343fa04461370d5a",
+        "message": "rudolph initiateOrder success, requestId: fc569037-df76-4ade-b346-2b90705ab03d",
+        "logger": "OfferService",
+        "level": "INFO"
+      },
+      "@ptr": "CrkBCnoKZjA1ODI2NDM3ODgyNzpHYW1tYS11cy1lYXN0LTEtRXhzU3RhY2stVHV4ZWRvQXBwQnVpbGRlclR1eGVkb0ZpcmVsZW5zTG9nVHV4ZWRvTG9nczJGNEExRTlCLUpyVnpkNUZGMzVzQRAHIg4IyI/u+NgyEMif0rndMhI3GhgCBnppY7cAAAAAV5Ml9AAGflLAgAAAB3IgASiJ4tC53TIwgJzSud0yODhAu50DSP2HAVCCcBgAIAEQKRgB"
+    }
+  ]
+}

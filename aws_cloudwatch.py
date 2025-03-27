@@ -297,7 +297,7 @@ class CloudWatchIntegration:
             logger.error(f"Error discovering fields for log group '{log_group_name}': {str(e)}")
             return {}
     
-    def query_logs(self, log_group_names: List[str], query_string, start_time=None, end_time=None):
+    def query_logs(self, log_group_names: List[str], query_string, start_time, end_time):
         """
         Query CloudWatch logs using CloudWatch Insights
         
@@ -461,18 +461,22 @@ if __name__ == "__main__":
     print(f"Retrieved {len(saved_queries)} saved queries:")
     print(json.dumps(saved_queries[:5], indent=2))  # Show first 5 saved queries 
 
-    # Test log querying using server-side log group
-    print("\n=== Log Querying ===")
-    query = "fields @timestamp, @message | limit 5"
-    results = cw.query_logs(log_groups["solo"]["server-side"], query)
-    print(f"Query results for '{log_groups['solo']['server-side']}':")
-    print(json.dumps(results, indent=2))
-    
-    # Test log field discovery using client-side log group
+        # Test log field discovery using client-side log group
     print("\n=== Log Field Discovery ===")
     fields = cw.discover_log_fields(log_groups["solo"]["client-side"])
     print(f"Discovered fields for '{log_groups['solo']['client-side']}':")
     print(json.dumps(fields, indent=2))
+
+    # Test log querying using server-side log group
+    print("\n=== Log Querying ===")
+    query = "fields @timestamp, @message | limit 5"
+    start_time = int((datetime.now().timestamp() - 86400*14) * 1000)
+    end_time = int((datetime.now().timestamp() - 86400*7) * 1000)
+    results = cw.query_logs(log_groups["solo"]["server-side"], query, start_time, end_time)
+    print(f"Query results for '{log_groups['solo']['server-side']}':")
+    print(json.dumps(results, indent=2))
+    
+
     
 
         

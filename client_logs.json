@@ -1,0 +1,809 @@
+{
+  "status": "Complete",
+  "statistics": {
+    "recordsMatched": 704.0,
+    "recordsScanned": 704.0,
+    "estimatedRecordsSkipped": 0.0,
+    "bytesScanned": 471020.0,
+    "estimatedBytesSkipped": 0.0,
+    "logGroupsScanned": 1.0
+  },
+  "results": [
+    {
+      "@timestamp": "2025-03-27 04:46:02.106",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "TraceIds": {
+          "cdn-rid": "rajzx84qkire3F6zqcL-cFntOLtsRNL57pXd0ZL2su4P7z5z5HH2Rg==",
+          "tux-rid": "Root=1-67e4d809-1f14eb2d4647829d30e7c156"
+        },
+        "browserId": "7ciM54r0zTV5YwHntwdT0",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050762106,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_JnRDt26t_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestLatency",
+                  "Unit": "Milliseconds"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestLatency": 844
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAQiDgjIj+742DIQyJ/Sud0yEjUaGAIGfWG/fAAAAAAUJGh6AAZ+TX4wAAAFwiABKPXRrq/dMjD6zq+v3TI4BkDoJEioIFDBExgAIAEQAxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:02.106",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "TraceIds": {
+          "cdn-rid": "rajzx84qkire3F6zqcL-cFntOLtsRNL57pXd0ZL2su4P7z5z5HH2Rg==",
+          "tux-rid": "Root=1-67e4d809-1f14eb2d4647829d30e7c156"
+        },
+        "browserId": "7ciM54r0zTV5YwHntwdT0",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050762106,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_JnRDt26t_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestLatency",
+                  "Unit": "Milliseconds"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestLatency": 766
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAQiDgjIj+742DIQyJ/Sud0yEjUaGAIGfWG/fAAAAAAUJGh6AAZ+TX4wAAAFwiABKPXRrq/dMjD6zq+v3TI4BkDoJEioIFDBExgAIAEQBBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:02.106",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "code": "2XX",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "TraceIds": {
+          "cdn-rid": "rajzx84qkire3F6zqcL-cFntOLtsRNL57pXd0ZL2su4P7z5z5HH2Rg==",
+          "tux-rid": "Root=1-67e4d809-1f14eb2d4647829d30e7c156"
+        },
+        "browserId": "7ciM54r0zTV5YwHntwdT0",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050762106,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_JnRDt26t_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                [],
+                [
+                  "elementName",
+                  "code"
+                ],
+                [
+                  "code"
+                ]
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestStatus",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestStatus": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAQiDgjIj+742DIQyJ/Sud0yEjUaGAIGfWG/fAAAAAAUJGh6AAZ+TX4wAAAFwiABKPXRrq/dMjD6zq+v3TI4BkDoJEioIFDBExgAIAEQBRgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:01.341",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "browserId": "9jDNkE-tICcZfwgFeL-YI",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050761340,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_KdLJDa9J_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAEiDgjIj+742DIQyJ/Sud0yEjUaGAIGeo9BMQAAAACAr8F6AAZ+TX5gAAABEiABKLXIr6/dMjD9yK+v3TI4BkC6IUj3FlDIDRgAIAEQBRgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:01.270",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "browserId": "9jDNkE-tICcZfwgFeL-YI",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050761262,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_KdLJDa9J_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAEiDgjIj+742DIQyJ/Sud0yEjUaGAIGeo9BMQAAAACAr8F6AAZ+TX5gAAABEiABKLXIr6/dMjD9yK+v3TI4BkC6IUj3FlDIDRgAIAEQAhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:01.270",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "browserId": "9jDNkE-tICcZfwgFeL-YI",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050761262,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_KdLJDa9J_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAEiDgjIj+742DIQyJ/Sud0yEjUaGAIGeo9BMQAAAACAr8F6AAZ+TX5gAAABEiABKLXIr6/dMjD9yK+v3TI4BkC6IUj3FlDIDRgAIAEQAxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:01.270",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "browserId": "9jDNkE-tICcZfwgFeL-YI",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050761262,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_KdLJDa9J_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAEiDgjIj+742DIQyJ/Sud0yEjUaGAIGeo9BMQAAAACAr8F6AAZ+TX5gAAABEiABKLXIr6/dMjD9yK+v3TI4BkC6IUj3FlDIDRgAIAEQBBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:01.269",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "browserId": "9jDNkE-tICcZfwgFeL-YI",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050761262,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_KdLJDa9J_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAEiDgjIj+742DIQyJ/Sud0yEjUaGAIGeo9BMQAAAACAr8F6AAZ+TX5gAAABEiABKLXIr6/dMjD9yK+v3TI4BkC6IUj3FlDIDRgAIAEQARgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:46:01.269",
+      "@message": {
+        "elementName": "amazon-delivery-card",
+        "WebComponentTraceIds": {
+          "cdn-rid": "grvvRhWiFGjyFYUUPWThWQ5ymOei6WIDyhCrUNObJDRPc_mzOK-9ug==",
+          "tux-rid": "Root=1-67e4d809-3fa694d227110768152ea9f0"
+        },
+        "appId": "amazon-delivery-card:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-virtual-bundle-delivery-card-test-product",
+        "browserId": "9jDNkE-tICcZfwgFeL-YI",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050761262,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-18-48_KdLJDa9J_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAEiDgjIj+742DIQyJ/Sud0yEjUaGAIGeo9BMQAAAACAr8F6AAZ+TX5gAAABEiABKLXIr6/dMjD9yK+v3TI4BkC6IUj3FlDIDRgAIAEQABgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:50.282",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "TraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "browserId": "Q67_L6O5JYdItrP7SwvuM",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050750282,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-12-49_F8NyV6WU_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestLatency",
+                  "Unit": "Milliseconds"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestLatency": 803
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAIiDgjIj+742DIQyJ/Sud0yEjUaGAIGfi/tHAAAAABipJuqAAZ+TXxAAAACwiABKMryrq/dMjDK8q6v3TI4A0CoEEjsF1DvDBgAIAEQABgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:50.282",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "TraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "browserId": "Q67_L6O5JYdItrP7SwvuM",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050750282,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-12-49_F8NyV6WU_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestLatency",
+                  "Unit": "Milliseconds"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestLatency": 756
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAIiDgjIj+742DIQyJ/Sud0yEjUaGAIGfi/tHAAAAABipJuqAAZ+TXxAAAACwiABKMryrq/dMjDK8q6v3TI4A0CoEEjsF1DvDBgAIAEQARgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:50.282",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "code": "2XX",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "TraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "browserId": "Q67_L6O5JYdItrP7SwvuM",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050750282,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-12-49_F8NyV6WU_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                [],
+                [
+                  "elementName",
+                  "code"
+                ],
+                [
+                  "code"
+                ]
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestStatus",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestStatus": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAIiDgjIj+742DIQyJ/Sud0yEjUaGAIGfi/tHAAAAABipJuqAAZ+TXxAAAACwiABKMryrq/dMjDK8q6v3TI4A0CoEEjsF1DvDBgAIAEQAhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:49.527",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "browserId": "qlFyzZBnv1NbrRj5I5lrd",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050749526,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_03-08-33_3w2lesaP_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAYiDgjIj+742DIQyJ/Sud0yEjUaGAIGfMBnswAAAAArFVdwAAZ+TX7wAAAEMiABKK7srq/dMjDX7K6v3TI4BkCMHUiJFFDKCxgAIAEQBRgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:49.487",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "browserId": "qlFyzZBnv1NbrRj5I5lrd",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050749479,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_03-08-33_3w2lesaP_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAYiDgjIj+742DIQyJ/Sud0yEjUaGAIGfMBnswAAAAArFVdwAAZ+TX7wAAAEMiABKK7srq/dMjDX7K6v3TI4BkCMHUiJFFDKCxgAIAEQBBgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:49.487",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "browserId": "qlFyzZBnv1NbrRj5I5lrd",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050749479,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_03-08-33_3w2lesaP_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAYiDgjIj+742DIQyJ/Sud0yEjUaGAIGfMBnswAAAAArFVdwAAZ+TX7wAAAEMiABKK7srq/dMjDX7K6v3TI4BkCMHUiJFFDKCxgAIAEQAxgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:49.487",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "browserId": "qlFyzZBnv1NbrRj5I5lrd",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050749479,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_03-08-33_3w2lesaP_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAYiDgjIj+742DIQyJ/Sud0yEjUaGAIGfMBnswAAAAArFVdwAAZ+TX7wAAAEMiABKK7srq/dMjDX7K6v3TI4BkCMHUiJFFDKCxgAIAEQAhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:49.486",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "browserId": "qlFyzZBnv1NbrRj5I5lrd",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050749479,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_03-08-33_3w2lesaP_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAYiDgjIj+742DIQyJ/Sud0yEjUaGAIGfMBnswAAAAArFVdwAAZ+TX7wAAAEMiABKK7srq/dMjDX7K6v3TI4BkCMHUiJFFDKCxgAIAEQARgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:49.486",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/gamma-delivery-message-vb-test-product-1",
+        "browserId": "qlFyzZBnv1NbrRj5I5lrd",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050749479,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_03-08-33_3w2lesaP_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "RequestCount",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "RequestCount": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAYiDgjIj+742DIQyJ/Sud0yEjUaGAIGfMBnswAAAAArFVdwAAZ+TX7wAAAEMiABKK7srq/dMjDX7K6v3TI4BkCMHUiJFFDKCxgAIAEQABgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:46.101",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "code": "2XX",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/delivery-card-test-product-1-copy",
+        "TraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "browserId": "m4X3llItspu1QlH0kviCu",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050746100,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-30-28_onn7kcoX_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                [],
+                [
+                  "elementName",
+                  "code"
+                ],
+                [
+                  "code"
+                ]
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestStatus",
+                  "Unit": "Count"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestStatus": 1
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAQiDgjIj+742DIQyJ/Sud0yEjUaGAIGfWG/fAAAAAAUJGh6AAZ+TX4wAAAFwiABKPXRrq/dMjD6zq+v3TI4BkDoJEioIFDBExgAIAEQAhgB"
+    },
+    {
+      "@timestamp": "2025-03-27 04:45:46.101",
+      "@message": {
+        "elementName": "amazon-delivery-message",
+        "WebComponentTraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "appId": "amazon-delivery-message:targetId=v65a8onka2:saltiefish-test-store.myshopify.com/products/delivery-card-test-product-1-copy",
+        "TraceIds": {
+          "cdn-rid": null,
+          "tux-rid": null
+        },
+        "browserId": "m4X3llItspu1QlH0kviCu",
+        "clientIp": "122.150.116.242",
+        "_aws": {
+          "Timestamp": 1743050746100,
+          "LogGroupName": "StorefrontMetrics",
+          "LogStreamName": "2025/03/27_04-30-28_onn7kcoX_00",
+          "CloudWatchMetrics": [
+            {
+              "Dimensions": [
+                [
+                  "elementName"
+                ],
+                []
+              ],
+              "Metrics": [
+                {
+                  "Name": "TemplateRequestLatency",
+                  "Unit": "Milliseconds"
+                }
+              ],
+              "Namespace": "Santos/Saltiefish/Autocut"
+            }
+          ]
+        },
+        "TemplateRequestLatency": 1310
+      },
+      "@ptr": "Cm8KMgoeMDU4MjY0Mzc4ODI3OlN0b3JlZnJvbnRNZXRyaWNzEAQiDgjIj+742DIQyJ/Sud0yEjUaGAIGfWG/fAAAAAAUJGh6AAZ+TX4wAAAFwiABKPXRrq/dMjD6zq+v3TI4BkDoJEioIFDBExgAIAEQARgB"
+    }
+  ]
+}

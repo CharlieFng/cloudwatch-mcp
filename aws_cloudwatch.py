@@ -1,8 +1,12 @@
 import logging
 import boto3
+import os
 import json
 from datetime import datetime
 from typing import List, Dict, Any
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Initialize logger
 logger = logging.getLogger(__name__)
@@ -25,13 +29,8 @@ class CloudWatchIntegration:
         # Static map of log groups
         self.static_log_groups = {
             "solo": {
-                "server-side": [
-                    "Gamma-OneBox-us-east-1-ExsStack-TuxedoAppBuilderTuxedoFirelensLogTuxedoLogs2F4A1E9B-CMZQOrFLDwvR", 
-                    "Gamma-us-east-1-ExsStack-TuxedoAppBuilderTuxedoFirelensLogTuxedoLogs2F4A1E9B-JrVzd5FF35sA"
-                ],
-                "client-side": [
-                    "StorefrontMetrics"
-                ],
+                "server-side": os.getenv("SERVER_SIDE_LOG_GROUPS"),
+                "client-side": os.getenv("CLIENT_SIDE_LOG_GROUPS")
             },
         }
     
